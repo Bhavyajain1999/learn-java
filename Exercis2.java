@@ -63,7 +63,7 @@ public class Exercis2 {
         System.out.println("Please enter fahrenite f");
         double f = input.nextDouble();    
         
-        double c = (f - 32)*(5)/(9);
+        double c = (((f - 32)*5)/9);
         System.out.println("fahrenite in celcius " +c);
     
 
