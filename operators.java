@@ -12,11 +12,6 @@ public class operators {
         System.out.println(myInt + newInt);
         System.out.println(newInt - myInt);
         System.out.println(myInt * newInt);
-        System.out.println(newInt / myInt);        
-
-
-
-
-
+        System.out.println(newInt / myInt);
     }
 }
