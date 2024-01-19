@@ -6,10 +6,13 @@ public class UserInput {
         System.out.println("Please enter your Name");
         String Name = input.nextLine();
         System.out.println("welcome to coding world " + Name);
-        int a = input.nextInt();
+        
         System.out.println("Please enter number a");
-        int b = input.nextInt();
+        int a = input.nextInt();
+        
         System.out.println("Please enter number b");
+        int b = input.nextInt();
+        
         int c = a + b ;
         System.out.println("sum of a and b is " + c);
 
