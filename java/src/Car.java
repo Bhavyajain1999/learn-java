@@ -5,7 +5,20 @@ public class Car {
     float currentFuelInLiters;
     int noOfSeats;
     public void drive(){
-        System.out.println("Car is driving");
+        if (currentFuelInLiters == 0){
+            System.out.println("car is out of fuel");
+        }
+        else if (currentFuelInLiters < 5){
+                System.out.println("car is in reserve mode please refuel");
+                currentFuelInLiters--;
+
+            }
+            else{
+                System.out.println("car is driving");
+                currentFuelInLiters--;
+            }
+        
+        
     
     }
     public void addFuel(float fuel){
