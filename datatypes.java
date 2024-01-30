@@ -29,5 +29,8 @@ public class datatypes {
         char myChar = 'c';
         System.out.println(myChar);
 
+        int myInt = (int) 5.45f;
+        System.out.println(myInt);
+
     }
 }
