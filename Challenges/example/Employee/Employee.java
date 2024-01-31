@@ -22,6 +22,15 @@ class Employee {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
+    }
+
     public void setName(String name) {
         this.name = name;
     }

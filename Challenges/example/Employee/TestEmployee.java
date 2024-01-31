@@ -8,5 +8,6 @@ public class TestEmployee {
         emp.setName("Bhavu");
         emp.setSalary(100000);
         System.out.println(emp.getEmployeeDetails());
+        System.out.println(emp.toString());
     }
 }
